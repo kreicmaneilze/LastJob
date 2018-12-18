@@ -25,7 +25,7 @@ public class ProjectCentralProcessor {
 
     private void readFileInformation() {
         String projectDirectoryFullPath = System.getProperty("user.dir");
-        String pathToCurrentProjectTextFilePackage = "/src/data/";
+        String pathToCurrentProjectTextFilePackage = "/src/main/data/";
         String FailaNosaukums = "textData.txt";
 //        Vardi vardi = new Vardi();
 //        Cipari cipari = new Cipari();

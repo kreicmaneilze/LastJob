@@ -14,7 +14,7 @@ public class calculationClass {
 
         {
             try {
-                FileReader fileReader = new FileReader("./src/data/" + this.FailaNosaukums);
+                FileReader fileReader = new FileReader("./src/main.data/" + this.FailaNosaukums);
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             }
