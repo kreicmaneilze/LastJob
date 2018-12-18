@@ -16,14 +16,8 @@ public class ProjectCentralProcessor {
         failaNosaukumaIzsauksana();
         readFileInformation();
         new calculationClass();
-        longestWord();
-
 
     }
-
-    private void longestWord() {
-    }
-
     public String failaNosaukumaIzsauksana() {
         return FailaNosaukums;
     }

@@ -10,7 +10,6 @@ public class calculationClass {
 
         }
 
-
         private final String FailaNosaukums = "textData.txt";
 
         {
