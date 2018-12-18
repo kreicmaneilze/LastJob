@@ -10,17 +10,25 @@ import java.util.*;
 
 public class ProjectCentralProcessor {
     private String FailaNosaukums = "textData.txt";
+    private char findLargest;
+    private boolean readCalculation;
 
 
     public void executeprojectCentralProcessor() {
         failaNosaukumaIzsauksana();
         readFileInformation();
-        new calculationClass();
+        //calculationClass();
+        readCalculation();
 
     }
     public String failaNosaukumaIzsauksana() {
         return FailaNosaukums;
     }
+
+    public void readCalculation() {
+
+    }
+
 
 
     private void readFileInformation() {
@@ -75,7 +83,7 @@ public class ProjectCentralProcessor {
             //System.out.println(vardi.getVardi);
             System.out.println(cipari);
             System.out.println(vardi);
-           // System.out.println(longestWord);
+            System.out.println(readCalculation);
 
 
         }
