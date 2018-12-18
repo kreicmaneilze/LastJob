@@ -15,9 +15,8 @@ public class ListOfStrings {
 
     }
 
-    public List<String> forEachString() {
-        return this.vardi;
-
+    public static void printTextLine(String printableText) {
+        System.out.println(printableText);
     }
 
     public List<String> getVardi() {

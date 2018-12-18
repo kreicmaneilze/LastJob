@@ -13,15 +13,6 @@ public class ListOfInteger {
 
         }
 
-    public ListOfInteger() {
-
-    }
-
-    public List<Integer> cipari() {
-            return this.cipari();
-
-        }
-
 
     public List<Integer> getCipari() {
         return this.cipari;

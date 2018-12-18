@@ -1,23 +1,22 @@
 package main.masterlogic;
 
+
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 //import static sun.tools.java.Constants.COMMA;
 //import static sun.tools.java.Constants.SEMICOLON;
 
 
-
-
 public class ProjectCentralProcessor {
-    private String FailaNosaukums = "textData.txt";;
-
+    private String FailaNosaukums = "textData.txt";
 
 
     public void executeprojectCentralProcessor() {
         failaNosaukumaIzsauksana();
         readFileInformation();
+        new calculationClass();
+
 
     }
 
@@ -68,23 +67,24 @@ public class ProjectCentralProcessor {
                 }
             }
 
-
             fr.close();
         } catch (
                 IOException exception) {
-           System.out.println(exception.getMessage());
-    } finally {
-     System.out.println("This is what comes out: ");
-       // System.out.println(vardi.getVardi);
-          System.out.println(cipari);
-          System.out.println(vardi);
+            System.out.println(exception.getMessage());
+        } finally {
+            System.out.println("This is what comes out: ");
+            //System.out.println(vardi.getVardi);
+            System.out.println(cipari);
+            System.out.println(vardi);
+            System.out.println(longestWord);
 
 
-            }
         }
+    }
 
 
     }
+
 
 
 
