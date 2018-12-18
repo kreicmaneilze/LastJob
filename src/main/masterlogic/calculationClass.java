@@ -1,14 +1,25 @@
 package main.masterlogic;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.util.*;
 
 public class calculationClass {
     public class longestWord {
-        final String words = null;
+        final String words = null;{
+
+        }
+
+
+        private final String FailaNosaukums = "textData.txt";
 
         {
-
-
+            try {
+                FileReader fileReader = new FileReader("./src/data/" + this.FailaNosaukums);
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
+            Throwable var4 = null;
             String ss[] = words.split(" ");
 
             List<String> vardi = new ArrayList<>();

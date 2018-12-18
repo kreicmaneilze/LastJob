@@ -16,13 +16,18 @@ public class ProjectCentralProcessor {
         failaNosaukumaIzsauksana();
         readFileInformation();
         new calculationClass();
+        longestWord();
 
 
+    }
+
+    private void longestWord() {
     }
 
     public String failaNosaukumaIzsauksana() {
         return FailaNosaukums;
     }
+
 
     private void readFileInformation() {
         String projectDirectoryFullPath = System.getProperty("user.dir");
@@ -76,7 +81,7 @@ public class ProjectCentralProcessor {
             //System.out.println(vardi.getVardi);
             System.out.println(cipari);
             System.out.println(vardi);
-            System.out.println(longestWord);
+           // System.out.println(longestWord);
 
 
         }
