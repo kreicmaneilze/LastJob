@@ -11,21 +11,21 @@ import java.util.*;
 public class ProjectCentralProcessor {
     private String FailaNosaukums = "textData.txt";
     private char findLargest;
-    private boolean readCalculation;
+
 
 
     public void executeprojectCentralProcessor() {
         failaNosaukumaIzsauksana();
         readFileInformation();
         //calculationClass();
-        readCalculation();
+        findLargest();
 
     }
     public String failaNosaukumaIzsauksana() {
         return FailaNosaukums;
     }
 
-    public void readCalculation() {
+    public void findLargest() {
 
     }
 
@@ -83,7 +83,7 @@ public class ProjectCentralProcessor {
             //System.out.println(vardi.getVardi);
             System.out.println(cipari);
             System.out.println(vardi);
-            System.out.println(readCalculation);
+            System.out.println(findLargest);
 
 
         }
