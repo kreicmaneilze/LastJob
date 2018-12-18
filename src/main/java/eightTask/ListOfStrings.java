@@ -1,13 +1,27 @@
-package main.eightTask;
+package main.java.eightTask;
 
-import java.util.ArrayList;
 import java.util.List;
+
+
 
 public class ListOfStrings {
 
-public void exampleForEachString() {
-    List<String> forEachString = new ArrayList<>();
-    forEachString.add("A");
-    System.out.println(forEachString);
-}
+    protected List<String> vardi;
+
+
+    public ListOfStrings(List<String> forEachString) {
+        this.vardi = forEachString;
+
+
+    }
+
+    public List<String> forEachString() {
+        return this.vardi;
+
+    }
+
+    public List<String> getVardi() {
+        return this.vardi;
+
+    }
 }

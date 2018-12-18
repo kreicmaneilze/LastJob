@@ -1,13 +1,32 @@
-package main.eightTask;
+package main.java.eightTask;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class ListOfInteger {
 
-    public void exampleForEachInteger() {
-        List<Integer> forEachInteger = new ArrayList<>();
-        forEachInteger.add(9);
-        System.out.println(forEachInteger);
+
+        protected List<Integer> cipari;
+    //private int cipari;
+
+    public ListOfInteger(List<Integer> forEachInteger) {
+            this.cipari = forEachInteger;
+
+        }
+
+    public ListOfInteger() {
+
     }
-}
+
+    public List<Integer> cipari() {
+            return this.cipari();
+
+        }
+
+
+    public List<Integer> getCipari() {
+        return this.cipari;
+
+    }
+    }
+
+
