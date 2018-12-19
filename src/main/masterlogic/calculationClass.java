@@ -4,6 +4,10 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 
 public class calculationClass {
+    public calculationClass(char findLargest) {
+
+    }
+
     public class longestWord {
         final String words = null;
         private String FailaNosaukums;
@@ -53,29 +57,58 @@ public class calculationClass {
 //            System.out.println("Length is  " + max);
         }
 
-            public int findLargest (int array[])
-            {
-                final String FailaNosaukums = "textData.txt";
+        public int findLargest(int array[]) {
 
-                try {
-                    FileReader fileReader = new FileReader("./src/main.data/" + this.FailaNosaukums);
+            final String FailaNosaukums = "textData.txt";
 
-                    int largest = array[0];
-                    int largestIndex = 0;
+            try {
+                FileReader fileReader = new FileReader("./src/main.data/" + this.FailaNosaukums);
 
-                    for (int i = 0; i < array.length; i++) {
-                        if (array[i] > largest) {
-                            largest = array[i];
-                            largestIndex = i;
-                        }
+                int largest = array[0];
+                int largestIndex = 0;
+
+                for (int i = 0; i < array.length; i++) {
+                    if (array[i] > largest) {
+                        largest = array[i];
+                        largestIndex = i;
                     }
-
-                    return largestIndex;
-                } catch (FileNotFoundException e) {
-                    e.printStackTrace();
                 }
 
-                return 0;
+                return largestIndex;
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
             }
+
+            return 0;
         }
     }
+}
+
+//        class LargestFromTextFile {
+//            public void main(String[] args) {
+//                try {
+//                    Scanner file = new Scanner(new File("numbers.txt"));
+//                    int largest = file.nextInt();
+//
+//                    while (file.hasNextInt()) {
+//                        int number = file.nextInt();
+//
+//                        if (number > largest) {
+//                            largest = number;
+//                        }
+//
+//                        System.out.println(number);
+//                    }
+//
+//                    file.close();
+//
+//                    System.out.println("The biggest number in the file is: " + largest);
+//                } catch (IOException e) {
+//                    System.out.println(e.getMessage());
+//                }
+//            }
+//
+//        }
+//
+//    }
+//}

@@ -11,7 +11,7 @@ import java.util.*;
 public class ProjectCentralProcessor {
     private String FailaNosaukums = "textData.txt";
     private char findLargest;
-
+    private boolean LargestFromTextFile;
 
 
     public void executeprojectCentralProcessor() {
@@ -19,8 +19,13 @@ public class ProjectCentralProcessor {
         readFileInformation();
         //calculationClass();
         findLargest();
+        LargestFromTextFile();
 
     }
+
+    private void LargestFromTextFile() {
+    }
+
     public String failaNosaukumaIzsauksana() {
         return FailaNosaukums;
     }
@@ -83,7 +88,8 @@ public class ProjectCentralProcessor {
             //System.out.println(vardi.getVardi);
             System.out.println(cipari);
             System.out.println(vardi);
-            System.out.println(findLargest);
+           // System.out.println(findLargest);
+            System.out.println(new calculationClass(findLargest));
 
 
         }

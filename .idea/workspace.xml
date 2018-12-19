@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="17250765-98ac-48e0-93de-da3b2a640bcf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LastJob/main/masterlogic/ProjectCentralProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LastJob/main/masterlogic/calculationClass$longestWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LastJob/main/masterlogic/calculationClass.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/masterlogic/ProjectCentralProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/masterlogic/ProjectCentralProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/masterlogic/calculationClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/masterlogic/calculationClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,26 +20,49 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/masterlogic/ProjectCentralProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="85" column="42" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/masterlogic/calculationClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.31282496">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/masterlogic/ProjectCentralProcessor.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1060">
+                  <caret line="91" column="56" selection-start-line="91" selection-start-column="56" selection-end-line="91" selection-end-column="56" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/masterlogic/calculationClass.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" selection-start-line="7" selection-end-line="7" />
+                  <folding>
+                    <marker date="1545206400496" expanded="true" signature="1509:2201" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/masterlogic/calculationClass.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="412">
+                  <caret line="59" column="45" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+                  <folding>
+                    <marker date="1545206400496" expanded="true" signature="1509:2201" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,14 +94,16 @@
         <option value="$PROJECT_DIR$/src/main/masterlogic/Vardi.java" />
         <option value="$PROJECT_DIR$/src/main/java/eightTask/ListOfInteger.java" />
         <option value="$PROJECT_DIR$/src/main/java/eightTask/ListOfStrings.java" />
-        <option value="$PROJECT_DIR$/src/main/masterlogic/calculationClass.java" />
         <option value="$PROJECT_DIR$/src/main/masterlogic/ProjectCentralProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/masterlogic/calculationClass.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="-486" />
+    <option name="y" value="-1440" />
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -82,26 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="LastJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LastJob" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LastJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LastJob" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LastJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -155,12 +164,32 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LastJob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LastJob" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LastJob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LastJob" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LastJob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545165214928" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545207778025" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -219,7 +248,9 @@
       <workItem from="1544444461223" duration="1086000" />
       <workItem from="1544639754571" duration="633000" />
       <workItem from="1544696664044" duration="13115000" />
-      <workItem from="1545046862700" duration="41839000" />
+      <workItem from="1545046862700" duration="42214000" />
+      <workItem from="1545168064018" duration="710000" />
+      <workItem from="1545205235607" duration="1512000" />
     </task>
     <task id="LOCAL-00001" summary="task 9&amp;">
       <created>1545143567083</created>
@@ -239,7 +270,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68049000" />
+    <option name="totallyTimeSpent" value="70646000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -251,10 +282,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="-486" y="-1440" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14620355" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08339953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -264,7 +295,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.45479453" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29178083" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29124087" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2780822" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -272,9 +303,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49919224" weight="0.32739726" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49919224" visible="true" weight="0.23150685" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49919224" weight="0.14014599" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5016155" side_tool="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4983845" weight="0.2260274" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4983845" weight="0.22554745" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -342,9 +373,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/masterlogic/ListOfString.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/masterlogic/ListOfString.java" />
     <entry file="file://$USER_HOME$/Downloads/ProjectCentralProcessor (1).java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -359,12 +388,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/masterlogic/Cipari.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/masterlogic/Vardi.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/masterlogic/Cipari.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/masterlogic/Vardi.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/eightTask/ListOfInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -395,15 +420,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/masterlogic/calculationClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <marker date="1545206400496" expanded="true" signature="1509:2201" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/masterlogic/ProjectCentralProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="85" column="42" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
+        <state relative-caret-position="1060">
+          <caret line="91" column="56" selection-start-line="91" selection-start-column="56" selection-end-line="91" selection-end-column="56" />
         </state>
       </provider>
     </entry>
