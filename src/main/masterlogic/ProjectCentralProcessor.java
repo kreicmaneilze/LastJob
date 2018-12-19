@@ -22,7 +22,7 @@ public class ProjectCentralProcessor {
     public void executeprojectCentralProcessor() {
         failaNosaukumaIzsauksana();
         readFileInformation();
-        //calculationClass();
+      
         findLargest();
 
     }
@@ -42,13 +42,9 @@ public class ProjectCentralProcessor {
         String projectDirectoryFullPath = System.getProperty("user.dir");
         String pathToCurrentProjectTextFilePackage = "/src/main/data/";
         String FailaNosaukums = "textData.txt";
-//        Vardi vardi = new Vardi();
-//        Cipari cipari = new Cipari();
+
 
         StringBuilder VarduBuilder = new StringBuilder();
-
-        //List<Integer> = new ArrayList<>();
-        
         ListOfStrings vardi = new ListOfStrings();
         ListOfInteger cipari = new ListOfInteger();
         
@@ -96,17 +92,22 @@ public class ProjectCentralProcessor {
             System.out.println("This is what comes out: ");
             System.out.println(vardi.getItems().toString());
             System.out.println(cipari.getItems().toString());
-           // System.out.println(findLargest);
-            System.out.println(new calculationClass(findLargest));
-
-
+            
+            System.out.println("This is the sum: ");
+            System.out.println(calculationClass.sumOfThat(cipari.getItems()));
+            
+            System.out.println("This is the longest word: ");
+            System.out.println(calculationClass.longestOne(vardi.getItems()));
+            
+            System.out.println("This is the max value: ");
+            System.out.println(calculationClass.maxVertiba(cipari.getItems()));
+            
+            System.out.println("This is everyhting: ");
+            calculationClass.everythingAll(cipari.getItems(), vardi.getItems());
+            
         }
     }
-
-
-    }
-
-
+}
 
 
 

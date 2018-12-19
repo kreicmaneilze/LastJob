@@ -1,114 +1,59 @@
 package main.masterlogic;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
+import java.util.List;
 
 public class calculationClass {
-    public calculationClass(char findLargest) {
+
+
+    public static Integer sumOfThat(List<Integer> sumItIs) {
+        Integer sum = 0;
+        for (Integer i : sumItIs) {
+            sum += i;
+
+        }
+        return sum;
 
     }
 
-    public class longestWord {
-        final String words = null;
-        private String FailaNosaukums;
+    public static String longestOne(List<String> longestItIs) {
+        String longestOne = "";
+        int maxGarums = 0;
 
-        {
-//
-//        }
-//
-//        private final String FailaNosaukums = "textData.txt";
-//
-//        {
-//            try {
-//                FileReader fileReader = new FileReader("./src/main.data/" + this.FailaNosaukums);
-//            } catch (FileNotFoundException e) {
-//                e.printStackTrace();
-//            }
-//            Throwable var4 = null;
-//            String ss[] = words.split(" ");
-//
-//            List<String> vardi = new ArrayList<>();
-//
-//            Map<Integer, String> set = new Hashtable<Integer, String>();
-//
-//            int i = 0;
-//            for (
-//                    String str : vardi) {
-//                set.put(str.length(), str);
-//                System.out.println(vardi.get(i));
-//                i++;
-//            }
-//
-//
-//            Set<Integer> keys = set.keySet();
-//
-//            System.out.println(keys);
-//            System.out.println(set);
-//
-//            Object j[] = keys.toArray();
-//
-//            Arrays.sort(j);
-//
-//            Object max = j[j.length - 1];
-//
-//            set.get(max);
-//
-//            System.out.println("Tha longest word is " + set.get(max));
-//            System.out.println("Length is  " + max);
+        for (String a : longestItIs) {
+            if (a.length() > maxGarums) {
+                maxGarums = a.length();
+                longestOne = a;
+            }
         }
+        return longestOne;
+    }
 
-        public int findLargest(int array[]) {
 
-            final String FailaNosaukums = "textData.txt";
-
-            try {
-                FileReader fileReader = new FileReader("./src/main.data/" + this.FailaNosaukums);
-
-                int largest = array[0];
-                int largestIndex = 0;
-
-                for (int i = 0; i < array.length; i++) {
-                    if (array[i] > largest) {
-                        largest = array[i];
-                        largestIndex = i;
-                    }
-                }
-
-                return largestIndex;
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
+    public static Integer maxVertiba(List<Integer> maxVertiba) {
+        int max = Integer.MIN_VALUE;
+        for (Integer a : maxVertiba) {
+            if (max < a) {
+                max = a;
             }
 
-            return 0;
+        }
+
+        return max;
+
+    }
+
+    public static void everythingAll(List<Integer> allValues1, List<String> allValues2) {
+        for (Integer a : allValues1) {
+            System.out.print((a) + " ");
+        }
+
+        System.out.println("\n");
+
+        for (String q : allValues2) {
+            System.out.print((q) + " ");
+
+
         }
     }
 }
 
-//        class LargestFromTextFile {
-//            public void main(String[] args) {
-//                try {
-//                    Scanner file = new Scanner(new File("numbers.txt"));
-//                    int largest = file.nextInt();
-//
-//                    while (file.hasNextInt()) {
-//                        int number = file.nextInt();
-//
-//                        if (number > largest) {
-//                            largest = number;
-//                        }
-//
-//                        System.out.println(number);
-//                    }
-//
-//                    file.close();
-//
-//                    System.out.println("The biggest number in the file is: " + largest);
-//                } catch (IOException e) {
-//                    System.out.println(e.getMessage());
-//                }
-//            }
-//
-//        }
-//
-//    }
-//}

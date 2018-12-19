@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17250765-98ac-48e0-93de-da3b2a640bcf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LastJob/main/java/eightTask/ListOfInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eightTask/ListOfInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eightTask/ListOfInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eightTask/ListOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eightTask/ListOfStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LastJob/main/masterlogic/calculationClass$longestWord.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/masterlogic/ProjectCentralProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/masterlogic/ProjectCentralProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/masterlogic/calculationClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/masterlogic/calculationClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,14 +17,14 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.31282496">
+    <splitter split-orientation="horizontal" split-proportion="0.64845026">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/masterlogic/ProjectCentralProcessor.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="228">
-                  <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+                <state relative-caret-position="-4">
+                  <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
                 </state>
               </provider>
             </entry>
@@ -34,10 +32,10 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/masterlogic/calculationClass.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" selection-start-line="7" selection-end-line="7" />
+                <state relative-caret-position="380">
+                  <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
                   <folding>
-                    <marker date="1545206400496" expanded="true" signature="1509:2201" ph="..." />
+                    <marker date="1545221729719" expanded="true" signature="82:83" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -47,13 +45,13 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/masterlogic/calculationClass.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1050">
-                  <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
+                <state relative-caret-position="488">
+                  <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
                   <folding>
-                    <marker date="1545206400496" expanded="true" signature="1509:2201" ph="..." />
+                    <marker date="1545221729719" expanded="true" signature="82:83" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -68,7 +66,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/eightTask/ListOfInteger.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="75">
@@ -118,18 +116,16 @@
         <option value="$PROJECT_DIR$/src/main/masterlogic/ListOfString.java" />
         <option value="$PROJECT_DIR$/src/main/masterlogic/Cipari.java" />
         <option value="$PROJECT_DIR$/src/main/masterlogic/Vardi.java" />
-        <option value="$PROJECT_DIR$/src/main/masterlogic/calculationClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/eightTask/ListOfStrings.java" />
         <option value="$PROJECT_DIR$/src/main/java/eightTask/ListOfInteger.java" />
+        <option value="$PROJECT_DIR$/src/main/masterlogic/calculationClass.java" />
         <option value="$PROJECT_DIR$/src/main/masterlogic/ProjectCentralProcessor.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-486" />
-    <option name="y" value="-1440" />
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -277,7 +273,7 @@
       <workItem from="1545046862700" duration="42214000" />
       <workItem from="1545168064018" duration="710000" />
       <workItem from="1545205235607" duration="1929000" />
-      <workItem from="1545213337004" duration="1808000" />
+      <workItem from="1545213337004" duration="5508000" />
     </task>
     <task id="LOCAL-00001" summary="task 9&amp;">
       <created>1545143567083</created>
@@ -300,11 +296,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545208693719</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="last">
+      <created>1545218440563</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545218440564</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72871000" />
+    <option name="totallyTimeSpent" value="76571000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,9 +319,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-486" y="-1440" width="2560" height="1440" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.083796665" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.009693054" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -328,7 +331,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.45479453" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29124087" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38356164" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2780822" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -336,9 +339,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49919224" weight="0.32739726" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49919224" visible="true" weight="0.14014599" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49919224" visible="true" weight="0.13972603" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5016155" side_tool="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4983845" weight="0.22554745" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4983845" weight="0.22465754" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -388,7 +391,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="task 9&amp;" />
     <MESSAGE value="10" />
-    <option name="LAST_COMMIT_MESSAGE" value="10" />
+    <MESSAGE value="last" />
+    <option name="LAST_COMMIT_MESSAGE" value="last" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/FirstJava.java" />
@@ -430,23 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/masterlogic/calculationClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <marker date="1545206400496" expanded="true" signature="1509:2201" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/constants/ImportantConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eightTask/ListOfStrings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -461,10 +448,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/constants/ImportantConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/masterlogic/calculationClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+          <folding>
+            <marker date="1545221729719" expanded="true" signature="82:83" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/masterlogic/ProjectCentralProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+        <state relative-caret-position="-4">
+          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
         </state>
       </provider>
     </entry>
